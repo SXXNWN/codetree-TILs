@@ -6,13 +6,10 @@ int main() {
 
     scanf("%d" , &n);
 
-    if(n%2 != 0) printf("%d" , 31);
+    if(n==2) printf("%d" , 28); //46911 30
     
-    else{
-
-        if(n==2){printf("%d" , 28);}
-
-        else{ printf("%d" , 30);}
-    }
+    if(n==4 || n==6 || n==9 || n==11) printf("%d" , 30);
+    else printf("%d" , 31);
+    
     return 0;
 }
