@@ -1,15 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    
+    // 변수 선언
     int n;
 
-    scanf("%d" , &n);
-
-    if(n==2) printf("%d" , 28); //46911 30
+	// 입력
+	scanf("%d", &n);
     
-    if(n==4 || n==6 || n==9 || n==11) printf("%d" , 30);
-    else printf("%d" , 31);
-    
+    // 출력
+	if(n == 2)
+		printf("28");
+	else if(n <= 7) {
+    	if(n % 2 == 1)
+        	printf("31");
+    	else
+        	printf("30");
+	}
+	else {
+    	if(n % 2 == 0)
+        	printf("31");
+    	else
+        	printf("30");
+	}
+	
     return 0;
 }
