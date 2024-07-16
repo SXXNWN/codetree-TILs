@@ -10,7 +10,7 @@ int main() {
 
         scanf("%d " , &x);
         if(x%2!=0 && x%3==0){
-            sum+=x;
+            sum=sum+x;
         }
     
     printf("%d" , sum);
