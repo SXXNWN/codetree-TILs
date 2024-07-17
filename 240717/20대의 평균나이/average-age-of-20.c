@@ -14,8 +14,9 @@ int main() {
         cnt++;
         }
 
-        else
+        else{
             break;
+        }
     }
 
     printf("%.2lf" , (double)sum/cnt);
