@@ -9,14 +9,13 @@ int main() {
 
         scanf("%d" , &n);
 
-        if(n<30){
+        if(n<30 && n>19){
         sum += n;
         cnt++;
         }
 
-        else{
+        else
             break;
-        }
     }
 
     printf("%.2lf" , (double)sum/cnt);
