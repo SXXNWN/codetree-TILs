@@ -1,0 +1,1 @@
+print("Hello studets!\nWelcom to LeebrosCode!")
