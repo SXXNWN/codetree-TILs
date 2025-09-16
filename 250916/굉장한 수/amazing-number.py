@@ -3,4 +3,4 @@ N = int(input())
 if (N % 2 != 0 and N % 3 == 0) or (N % 2 == 0 and N % 5 == 0) :
     print('true')
 else :
-    pritn('false')
+    print('false')
