@@ -5,4 +5,4 @@ if C == 'A' :
         print(i , end = " ")
 else :
     for i in range(int(N) , 0 , -1):
-        print(i , end =)
+        print(i , end = " ")
