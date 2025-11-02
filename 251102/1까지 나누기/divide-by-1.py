@@ -1,14 +1,13 @@
 N = int(input())
-
-cnt = N
-cnt1 = 1
+cnt = 1
 
 while(True) :
-    cnt /= cnt1
-    cnt1 += 1
-    if (cnt/cnt1 <= 1):
-        print(cnt1)
+    N //= cnt
+    
+    if (N <= 1):
+        print(cnt)
         break
+    cnt += 1
     
     
 
