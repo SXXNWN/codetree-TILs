@@ -10,6 +10,6 @@ while(True):
         N = N * 3 + 1
         cnt += 1
     else :
-        N = N * 2 + 1
+        N = N * 2 + 2
         cnt += 1
 
