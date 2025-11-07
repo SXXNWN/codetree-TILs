@@ -1,0 +1,23 @@
+n = int(input())
+cnt = 1
+
+for i in range(n):
+    
+    if i == 0 :
+        for j in range(n):
+            print(cnt , end = " ")
+            cnt += 1
+    
+    elif i % 2 == 0 :
+        cnt += 1
+        for j in range(n):
+            print(cnt , end = " ")
+            cnt += 1
+    else :
+        cnt += n-1 
+        for j in range(n):
+            print(cnt , end = " ")
+            cnt -= 1
+        cnt += n
+    print()
+        
