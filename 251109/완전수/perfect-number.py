@@ -10,5 +10,6 @@ for i in range(start , end + 1):
             add += j
     if add == i :
         cnt += 1
+    add = 0
 
 print(cnt)
