@@ -5,8 +5,8 @@ cnt = 0
 for i in arr :
     if i >= 250 :
         break
-    else :
-        sum += i
-        cnt += 1
+    
+    sum += i
+    cnt += 1
 
 print(sum , sum/cnt , sep = " ")
