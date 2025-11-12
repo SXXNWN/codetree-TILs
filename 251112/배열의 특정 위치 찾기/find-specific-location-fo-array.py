@@ -6,7 +6,9 @@ cnt = 0
 for i in range(10):
     if i % 2 != 0 :
         sum_even += arr[i]
-    elif (i+1) % 3 == 0 :
+
+for i in range(10):
+    if (i+1) % 3 == 0 :
         sum_3 += arr[i]
         cnt += 1
 
