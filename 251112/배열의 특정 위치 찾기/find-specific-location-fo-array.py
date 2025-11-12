@@ -4,4 +4,4 @@ arr_3 = arr[2::3]
 
 
 
-print(sum(arr_even) , sum(arr_3)/len(arr_3) , sep = " ") 
+print(f"{sum(arr_even)} {sum(arr_3)/len(arr_3):.1f}") 
