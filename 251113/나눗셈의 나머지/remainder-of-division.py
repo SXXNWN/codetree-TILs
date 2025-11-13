@@ -2,8 +2,9 @@ a , b = map(int , input().split())
 arr = []
 
 while(a > 1):
-    a = a // b
     arr.append(a%b)
+    a = a // b
+    
 
 new_arr = []
 
