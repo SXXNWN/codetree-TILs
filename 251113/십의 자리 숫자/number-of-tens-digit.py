@@ -4,6 +4,7 @@ set_val = 0
 for i in range(len(arr)):
     if arr[i] == 0 :
         set_val = i
+        break
 
 
 for i in range(1 , 10):
