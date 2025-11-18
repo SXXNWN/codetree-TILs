@@ -1,8 +1,9 @@
 n , q = map(int , input().split())
 arr = list(map(int , input().split()))
-index = -1
+
 
 for i in range(q):
+    index = -1
     new_arr = list(map(int , input().split()))
     if len(new_arr) <= 2 :
         a = new_arr[0]
