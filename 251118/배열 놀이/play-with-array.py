@@ -20,6 +20,8 @@ for i in range(q):
                 print(j+1)
                 index = j
                 break
+        if index == -1 :
+            print(0)
             
     elif a == 3 :
         for x in range(b-1 , c):
