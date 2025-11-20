@@ -19,7 +19,7 @@ for i in range(n):
 
 
 for i in range(n):
-    if i = check :
+    if i == check :
         continue
     
     if max_val_2 <= a[i]:
