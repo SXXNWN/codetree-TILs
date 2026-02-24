@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    cout << "Total days in year";
+    cout << "Total days in Year";
     cout << endl;
     cout << 365 << endl << "Circumference rate";
     cout << endl;
