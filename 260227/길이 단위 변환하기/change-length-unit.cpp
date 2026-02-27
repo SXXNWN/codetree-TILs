@@ -9,7 +9,7 @@ int main() {
 
     cout.precision(1);
 
-    cout << a << "ft" << " = " << a*30.48 << "cm";
+    cout << a << "ft" << " = " << a*30.48 << "cm" << endl;
     cout << b << "mi" << " = " << b*160934 << "cm";
 
     
