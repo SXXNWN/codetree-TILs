@@ -1,4 +1,4 @@
 a,b = 2,6
-b = a
+a = b
 
 print(a,b,sep="\n")
