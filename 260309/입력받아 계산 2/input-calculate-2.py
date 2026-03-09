@@ -1,5 +1,3 @@
-a , b = input().split()
-int(a)
-int(b)
+a , b = map(int,input().split())
 
 print(a*b)
