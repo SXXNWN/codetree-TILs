@@ -1,3 +1,5 @@
-a , b = int(input().split())
+a , b = input().split()
+int(a)
+int(b)
 
 print(a*b)
