@@ -1,3 +1,3 @@
 a = input()
 arr = a.split("-")
-print(f"{a[0]}{a[1]}")
+print(f"{arr[0]}{arr[1]}")
